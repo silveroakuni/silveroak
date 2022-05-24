@@ -1,0 +1,159 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>
+		Resume Template
+	</title>
+	<style>
+	* {
+        margin: 0 ;
+        padding: 0;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: grey;
+        }
+    li {
+        float: left;
+        }
+    li button, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+        background-color: grey;
+        }
+
+    li.dropdown {
+        display: inline-block;
+        padding:25px;
+        }
+    button:hover {
+        color: aquamarine;
+    }
+
+	.card {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	  max-width: 300px;
+	  margin: auto;
+	  text-align: center;
+	  font-family: arial;
+	  margin-top: 50px;
+	  margin-left: 30px;
+	}
+
+	.card2 {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	  max-width: 300px;
+	  margin: auto;
+	  text-align: center;
+	  font-family: arial;
+	  margin-top: 100px;
+	  margin-right: 10px;
+	  background-color: black;
+	  color: white;
+	}
+
+	.title {
+	  color: cyan;
+	  font-size: 18px;
+	}
+
+	button {
+	  border: none;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 8px;
+	  color: white;
+	  background-color: #000;
+	  text-align: center;
+	  cursor: pointer;
+	  width: 100%;
+	  font-size: 18px;
+	}
+
+	a {
+	  text-decoration: none;
+	  font-size: 22px;
+	  color: black;
+	}
+
+	button:hover, a:hover {
+	  opacity: 0.7;
+	}
+
+	.contain1 {
+		transition: margin-left 1s,opacity 1s;
+		opacity: 0;
+	}
+
+	.contain1:hover {
+		margin-left: 200px;
+		opacity: 1;
+	}
+
+	.contain2 {
+		transition: margin-left 1s,opacity 1s;
+		opacity: 0;
+	}
+
+	.contain2:hover {
+		margin-left: -200px;
+		opacity: 1;
+	}
+
+	#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+	</style>
+</head>
+<body style="width:100%">
+	<video autoplay muted loop id="myVideo" src="1.mp4">
+  		
+	</video>
+<div>
+    <ul>
+        <li class="dropdown">
+            <button class="dropbtn">Profile</button>
+        </li>
+        <li class="dropdown">
+            <button class="dropbtn">Skills</button>
+        </li>
+        <li class="dropdown">
+            <button class="dropbtn">Education</button>
+        </li>
+    </ul>
+</div>
+<div style="width:98%;height:500px;" class="contain1">
+	<div class="card">
+	  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1pkcNsYi13Myhj9l5SgjhLlYh9OIm_L9_1w&usqp=CAU" alt="xyz" style="width:250;height:250;">
+	  <h1>xyz</h1>
+	  <p class="title">Mo :-1569874521 </p>
+	  <p class="title">Gmail :- xyz@gmail.com</p>
+	  <p class="title">Address :- Ahemdabad,gujrat <br/>India</p>
+
+	  <p><button>Contact</button></p>
+	</div>
+</div>
+<div style="width:98%;height:500px;margin-top: 100px;" class="contain2">
+	<div class="card2">
+	  <h2>language</h2>
+	  <p class="title">Gujrati</p>
+	  <p class="title">Hindi</p>
+	  <p class="title">English</p>
+	</div>
+</div>
+
+
+</body>
+</html>
+
